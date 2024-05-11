@@ -1,0 +1,109 @@
+html {
+    background-color: lightblue;
+    background-image: url("h-slide-2.jpg");
+    text-align: center;
+}
+h1 {
+    background-color: rgba(0,0,0,0.7);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding: 30px;
+	font-family: Arial;
+    text-transform: uppercase;
+}
+footer{
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 50px;
+    background-image: url("Footer.png");
+    width: 30%;
+    padding-left: 30px;
+    position: absolute;
+}
+/*      submit button style http://button.csscook.com/  */
+input[type=submit] {
+    border : solid 1px #00688a;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    -webkit-box-shadow : 2px 3px 11px rgba(0,0,0,0.5);
+    -moz-box-shadow : 2px 3px 11px rgba(0,0,0,0.5);
+    box-shadow : 2px 3px 11px rgba(0,0,0,0.5);
+    font-size : 12px;
+    color : #ffffff;
+    padding : 5px 15px;
+    background : #0061c2;
+    background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0061c2), color-stop(100%,#0aabc4));
+    background : -moz-linear-gradient(top, #0061c2 0%, #0aabc4 100%);
+    background : -webkit-linear-gradient(top, #0061c2 0%, #0aabc4 100%);
+    background : -o-linear-gradient(top, #0061c2 0%, #0aabc4 100%);
+    background : -ms-linear-gradient(top, #0061c2 0%, #0aabc4 100%);
+    background : linear-gradient(top, #0061c2 0%, #0aabc4 100%);
+    filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#0061c2', endColorstr='#0aabc4',GradientType=0 );
+    opacity: 0.7;
+}
+input[type=submit]:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.kezdolapgomb{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    width: 100px;
+    height: 100px;
+}
+.kezdolapgomb:hover{
+    opacity: 0.7;
+    transition: 1s ease;
+}
+.blur {
+   color: transparent;
+   text-shadow: 0 0 1px rgba(255,255,255,1);
+}
+.radiobox{
+	border-width: 3px;   
+  	border-color: lightgreen;   
+ 	border-style: solid; 
+ 	display: inline;
+ 	background: #4CAF50;
+ 	color:white;
+ 	padding:5px;
+}
+.checkboxstyle{
+ 	padding:10px;
+    background-color: rgba(255,255,255,0.7);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.checkfonts{
+    font-weight: 800;
+    font-family: arial;
+    padding-right: 23px;
+    display: inline;
+}
+table{
+    margin-top: 40px;
+    margin-right:auto;
+    margin-left:auto;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(255,255,255,0.8);
+}
+tr:nth-child(odd){
+    background-color: rgba(180,180,180,0.8);
+}
+td{
+    font-weight: 800;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}

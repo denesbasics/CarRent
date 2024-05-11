@@ -1,0 +1,66 @@
+html {
+    background-color: lightblue;
+    background-image: url("h-slide-2.jpg");
+}
+h1 { 
+	background-color: rgba(0,0,0,0.7); 
+	color: #ffffff; 
+	font-family: 'Raleway',sans-serif;
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 72px;
+	margin: 0 0 12px;
+	padding: 20px;
+	text-align: left;
+	display: inline-block;
+	text-transform: uppercase;
+}
+/*		Szöveg formázás		*/
+.kolcsonzoneve{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+}
+.kiemel{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.leiras
+{
+	background-color: rgba(0,102,204,0.7);
+	position: absolute;
+	text-align: left;
+	display: inline-table;
+	color: white;
+	padding-right: 30px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+.container{
+	position: relative;
+	text-align: center;
+}
+.box-1{
+	/*background:red;*/
+	display: inline-table;
+	float: left;
+}
+.box-2{
+	/*background:white;*/
+	display: inline-table;
+	margin-right:auto;
+	margin-left:auto;
+}
+.kezdolapgomb{
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+    width: 100px;
+    height: 100px;
+}
+.kezdolapgomb:hover{
+	opacity: 0.7;
+	transition: 1s ease;
+}
